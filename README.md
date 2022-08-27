@@ -14,6 +14,9 @@ Static directory listing of services using Monero
 
 <https://sideshift.ai/>
 
+<https://unstoppableswap.net/>
+
+
 ## Fiat too
 
 <https://localmonero.co/>
