@@ -1,4 +1,4 @@
-
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 
 Static directory listing of services using Monero
 
