@@ -24,6 +24,10 @@ Static directory listing of services using Monero
 :id: :world_map: <https://www.binance.com/> 
 
 
+# Physical goods
+
+<https://moneromarket.io>
+
 
 # Internet services
 
