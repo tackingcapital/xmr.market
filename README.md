@@ -26,7 +26,7 @@ Static directory listing of services using Monero
 
 ## VPS
 
-<https://www.privex.io/privacy/>
+<https://www.privex.io/>
 
 ## VPN
 
