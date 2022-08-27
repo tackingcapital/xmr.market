@@ -28,6 +28,9 @@ Static directory listing of services using Monero
 
 <https://moneromarket.io>
 
+# Virtual phone numbers
+
+<https://telnum.net/payment-methods/xmr/>
 
 # Internet services
 
