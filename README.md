@@ -44,6 +44,8 @@ Static directory listing of services using Monero
 
 <https://www.ivpn.net/>
 
+<https://www.bolehvpn.net/>
+
 # Tor services
 
 alphabay522szl32u4ci5e3iokdsyth56ei7rwngr2wm7i5jo54j2eid.onion
