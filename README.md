@@ -23,6 +23,9 @@ Static directory listing of services using Monero
 
 :id: :world_map: <https://www.binance.com/> 
 
+# Community
+
+<https://www.monerochan.art/>
 
 # Physical goods
 
