@@ -1,4 +1,4 @@
-# xmr.market
+
 
 Static directory listing of services using Monero
 
