@@ -25,6 +25,8 @@ Static directory listing of services using Monero
 
 # Community
 
+<https://www.getmonero.org/get-started/contributing/>
+
 <https://www.monerochan.art/>
 
 # Physical goods
