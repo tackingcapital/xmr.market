@@ -24,9 +24,15 @@ Static directory listing of services using Monero
 
 # Internet services
 
+## VPS
+
+<https://www.privex.io/privacy/>
+
 ## VPN
 
 <https://mullvad.net/en/>
+
+<https://www.ivpn.net/>
 
 # Tor services
 
