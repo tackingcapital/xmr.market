@@ -2,3 +2,6 @@ title: xmr.market
 
 markdown: kramdown
 theme: minima
+
+plugins:
+  - jemoji
