@@ -75,7 +75,7 @@ alphabay522szl32u4ci5e3iokdsyth56ei7rwngr2wm7i5jo54j2eid.onion
 
 <https://tails.boum.org/donate/>
 
-<https://www.whonix.org/wiki/Donate/>
+<https://www.whonix.org/wiki/Donate>
 
 <https://donate.torproject.org/cryptocurrency/>
 
