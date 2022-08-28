@@ -41,6 +41,10 @@
 
             font-family: 'monerogothicbold';
 
+            word-break: break-all;
+
+            margin-bottom: 1em;
+
         }
 
         h1 {
@@ -50,19 +54,33 @@
         a {
             color: #ff6600;
             text-decoration: none;
+            margin: 0.1em;
         }
 
+        /* span {
+            color: #ff6600;
+        } */
 
         a:hover {
 
             text-decoration: underline;
         }
 
-        @media (orientation: portrait) {
+
+        @media (orientation: landscape) {
             body {
-                width: 100%;
+                margin: auto;
+                width: 60%;
             }
         }
+
+        @media (orientation: portrait) {
+            body {
+                font-size: 1em;
+                width: 90%;
+            }
+        }
+      
     </style>
 </head>
 
@@ -80,11 +98,9 @@
     Static directory listing of services using Monero, you can download this file, it's standalone (you will lose some
     theming)
 
-    <!-- :id: = wants KYC
+    <a href="https://github.com/tackingcapital/xmr.market">Contribute to this page!</a>
 
-:world_map: = depends on region -->
-
-    <a href="https://github.com/tackingcapital/xmr.market">Contribute! github.com/tackingcapital/xmr.market</a>
+    <a href="monero:86KmTLBowH5Qdqd4r3ALbdKgmYCArinVdB9471EPE6M8CuhsaSgEn55N4Gf4EEVywcK5XGiNWu78FTAT5HGgs1qp4SNpMeU">Donate to xmr.market!</a>
 
     <h2>Get Monero</h2>
 
@@ -144,7 +160,7 @@
 
     <h2>Tor services</h2>
 
-    alphabay522szl32u4ci5e3iokdsyth56ei7rwngr2wm7i5jo54j2eid.onion
+    <span>alphabay522szl32u4ci5e3iokdsyth56ei7rwngr2wm7i5jo54j2eid.onion</span>
 
     <h2>Other indexes</h2>
 
@@ -158,10 +174,10 @@
 
     <a href="https://donate.torproject.org/cryptocurrency/">donate.torproject.org/cryptocurrency</a>
 
-    <h2>License</h2>
-
-    MIT
-
 </body>
+<footer>
+    <hr>
+    xmr.market provided by <img style="width: 1em; height: 1em; padding-right: 0.1em" src="tacking-logo.svg">Tacking Capital and the <img style="width: 1em; height: 1em; padding-right: 0.1em" src="favicon.png">Monero community
+</footer>
 
 </html>
