@@ -16,9 +16,25 @@
 
 
     <style>
+
+
+
         html {
             align-items: center;
             justify-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #181818;
+            color: white;
+            font-family: 'monerogothicbold';
+            word-break: break-all;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
         }
 
         @font-face {
@@ -29,20 +45,17 @@
             font-style: normal;
         }
 
-        body {
-            background-color: #181818;
-            color: white;
+        .container {
+
+            
             display: flex;
             flex-direction: column;
             width: 60%;
             margin: auto;
 
-            font-family: 'monerogothicbold';
+          
 
-            word-break: break-all;
 
-            margin-bottom: 1em;
-           
 
         }
 
@@ -76,18 +89,70 @@
 
 
         @media (orientation: landscape) {
-            body {
+            .container {
                 margin: auto;
                 width: 60%;
             }
         }
 
         @media (orientation: portrait) {
-            body {
+            .container {
                 font-size: 1em;
                 width: 95%;
             }
         }
+
+        footer {
+           
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-items: right;
+            
+            
+            margin: 0;
+            padding: 0;
+        }
+
+        footer p {
+           
+
+            padding: 0;
+           margin: auto;
+           
+       }
+
+
+        .waifu-link {
+            align-items: right;
+           
+            height: 100%;
+           
+            padding: 0;
+           
+            
+            margin: 0;
+            aspect-ratio: 1;
+            text-decoration: none;
+            margin-bottom: 0;
+            
+        }
+
+        .waifu {
+           
+
+            width: 20vmax;
+            aspect-ratio: 1;
+
+           
+           
+
+            margin: 0;
+            padding: 0;
+
+        }
+
+
     </style>
 </head>
 
@@ -96,100 +161,106 @@
 
 
 
-
 <body>
+    <div class="container">
 
 
-    <h1>xmr.market</h1>
+        <h1>xmr.market</h1>
 
-    <p>Static directory listing of services using Monero</p>
-    <p>You can download this HTML file without JS, it's standalone (you will lose some
-        theming)</p>
+        <p>Static directory listing of services using Monero</p>
+        <p>You can download this HTML file without JS, it's standalone (you will lose some
+            theming)</p>
 
-    <a href="https://github.com/tackingcapital/xmr.market">Contribute to this page!</a>
+        <a href="https://github.com/tackingcapital/xmr.market">Contribute to this page!</a>
 
-    <a href="monero:86KmTLBowH5Qdqd4r3ALbdKgmYCArinVdB9471EPE6M8CuhsaSgEn55N4Gf4EEVywcK5XGiNWu78FTAT5HGgs1qp4SNpMeU">Donate
-        to xmr.market!</a>
+        <a
+            href="monero:86KmTLBowH5Qdqd4r3ALbdKgmYCArinVdB9471EPE6M8CuhsaSgEn55N4Gf4EEVywcK5XGiNWu78FTAT5HGgs1qp4SNpMeU">Donate
+            to xmr.market!</a>
 
-    <h2>Get Monero</h2>
+        <h2>Get Monero</h2>
 
-    <h3>Using only other cryptos</h3>
+        <h3>Using only other cryptos</h3>
 
-    <a href="https://sideshift.ai/">sideshift.ai</a>
+        <a href="https://sideshift.ai/">sideshift.ai</a>
 
-    <a href="https://unstoppableswap.net/">unstoppableswap.net</a>
-
-
-    <h3>Using fiat money too</h3>
-
-    <a href="https://localmonero.co/">localmonero.co</a>
-
-    <a href="https://www.binance.com/">binance.com</a>
-
-    <h2>Monero Development & Community</h2>
-
-    <a href="https://www.getmonero.org/get-started/contributing/">Donate to Monero development</a>
-
-    <a href="https://www.monerochan.art/">Donate to Monero-chan art</a>
-
-    <h2>Physical goods</h2>
-
-    <a href="https://moneromarket.io">moneromarket.io</a>
-
-    <a href="https://moneromerch.com/">moneromerch.com</a>
+        <a href="https://unstoppableswap.net/">unstoppableswap.net</a>
 
 
-    <h2>Virtual phone numbers</h2>
+        <h3>Using fiat money too</h3>
 
-    <a href="https://telnum.net/payment-methods/xmr/">telnum.net/payment-methods/xmr</a>
+        <a href="https://localmonero.co/">localmonero.co</a>
 
-    <h2>Internet services</h2>
+        <a href="https://www.binance.com/">binance.com</a>
 
-    <h3>Domains</h3>
+        <h2>Monero Development & Community</h2>
 
-    <a href="https://njal.la/domains/">njal.la/domains</a>
+        <a href="https://www.getmonero.org/get-started/contributing/">Donate to Monero development</a>
 
-    <h3>VPS</h3>
+        <a href="https://www.monerochan.art/">Donate to Monero-chan art</a>
 
-    <a href="https://www.privex.io/">privex.io</a>
+        <h2>Physical goods</h2>
 
-    <a href="https://njal.la/servers/">njal.la/servers</a>
+        <a href="https://moneromarket.io">moneromarket.io</a>
 
-    <a href="https://cockbox.org/">cockbox.org</a>
+        <a href="https://moneromerch.com/">moneromerch.com</a>
 
-    <h3>VPN</h3>
 
-    <a href="https://mullvad.net/en/">mullvad.net</a>
+        <h2>Virtual phone numbers</h2>
 
-    <a href="https://www.ivpn.net/">ivpn.net</a>
+        <a href="https://telnum.net/payment-methods/xmr/">telnum.net/payment-methods/xmr</a>
 
-    <a href="https://www.bolehvpn.net/">bolehvpn</a>
+        <h2>Internet services</h2>
 
-    <a href="https://cryptostorm.is/">cryptostorm</a>
+        <h3>Domains</h3>
 
-    <a href="https://njal.la/vpn/">Njalla</a>
+        <a href="https://njal.la/domains/">njal.la/domains</a>
 
-    <h2>Tor services</h2>
+        <h3>VPS</h3>
 
-    <span>alphabay522szl32u4ci5e3iokdsyth56ei7rwngr2wm7i5jo54j2eid.onion</span>
+        <a href="https://www.privex.io/">privex.io</a>
 
-    <h2>Other indexes</h2>
+        <a href="https://njal.la/servers/">njal.la/servers</a>
 
-    <a href="https://cryptwerk.com/pay-with/xmr/">Cryptwerk</a>
+        <a href="https://cockbox.org/">cockbox.org</a>
 
-    <h2>Other donations</h2>
+        <h3>VPN</h3>
 
-    <a href="https://tails.boum.org/donate/">Donate to Tails Linux</a>
+        <a href="https://mullvad.net/en/">mullvad.net</a>
 
-    <a href="https://www.whonix.org/wiki/Donate">Donate to Whonix</a>
+        <a href="https://www.ivpn.net/">ivpn.net</a>
 
-    <a href="https://donate.torproject.org/cryptocurrency/">Donate to Tor Project</a>
+        <a href="https://www.bolehvpn.net/">bolehvpn</a>
 
-</body>
-<footer>
+        <a href="https://cryptostorm.is/">cryptostorm</a>
+
+        <a href="https://njal.la/vpn/">Njalla</a>
+
+        <h2>Tor services</h2>
+
+        <span>alphabay522szl32u4ci5e3iokdsyth56ei7rwngr2wm7i5jo54j2eid.onion</span>
+
+        <h2>Other indexes</h2>
+
+        <a href="https://cryptwerk.com/pay-with/xmr/">Cryptwerk</a>
+
+        <h2>Other donations</h2>
+
+        <a href="https://tails.boum.org/donate/">Donate to Tails Linux</a>
+
+        <a href="https://www.whonix.org/wiki/Donate">Donate to Whonix</a>
+
+        <a href="https://donate.torproject.org/cryptocurrency/">Donate to Tor Project</a>
+
+    </div>
     <hr>
-    xmr.market provided by <img style="width: 1em; height: 1em; padding-right: 0.1em" src="tacking-logo.svg">Tacking
-    Capital and the <img style="width: 1em; height: 1em; padding-right: 0.1em" src="favicon.png">Monero community
-</footer>
+    <footer>
+       
+        <p>
+            xmr.market provided by <img style="width: 1em; height: 1em; padding-right: 0.1em" src="tacking-logo.svg">Tacking
+            Capital and the <img style="width: 1em; height: 1em; padding-right: 0.1em" src="favicon.png">Monero community
+        </p>
+        <a class="waifu-link" href="https://monerochan.art" target="_blank"><img class="waifu" src="waifu.png"></a>
+    </footer>
+</body>
 
 </html>
